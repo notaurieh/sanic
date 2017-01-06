@@ -1,0 +1,31 @@
+{
+  "name": "sanic",
+  "version": "0.0.1",
+  "description": "A fast coroutine generator that saves your memory <3",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "node ./node_modules/jasmine/bin/jasmine.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aurieh/sanic.git"
+  },
+  "keywords": [
+    "coroutine",
+    "generator",
+    "ecma6",
+    "async"
+  ],
+  "author": "Aurieh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aurieh/sanic/issues"
+  },
+  "homepage": "https://github.com/aurieh/sanic#readme",
+  "devDependencies": {
+    "jasmine": "^2.5.2"
+  }
+}
