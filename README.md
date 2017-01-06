@@ -5,7 +5,7 @@
 const sanic = require("sanic");
 var fn = sanic(function* () {
   try {
-    const response = makeAWebRequest();
+    const response = yield makeAWebRequest();
     console.log(response.body);
   } catch (e) {
     console.error("Wooops\n", e);
