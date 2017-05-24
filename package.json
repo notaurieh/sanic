@@ -1,6 +1,6 @@
 {
   "name": "sanic",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "A fast coroutine generator that saves your memory <3",
   "main": "index.js",
   "directories": {
