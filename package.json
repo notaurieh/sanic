@@ -7,7 +7,7 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "node ./node_modules/jasmine/bin/jasmine.js"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -26,6 +26,8 @@
   },
   "homepage": "https://github.com/aurieh/sanic#readme",
   "devDependencies": {
-    "jasmine": "^2.5.2"
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "mocha": "^3.4.1"
   }
 }
